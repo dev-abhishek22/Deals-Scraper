@@ -1,0 +1,3265 @@
+[
+  {
+    "brandId": "46655",
+    "departmentIds": ["1389432031", "976419031", "976420031"],
+    "metadata": {
+      "isPinned": false
+    },
+    "product": {
+      "resource": {
+        "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3",
+        "types": [
+          "product.offer-comparison-experience/v1",
+          "product/v1",
+          "product/v3",
+          "product/v2"
+        ]
+      },
+      "type": "product/v2",
+      "entity": {
+        "asin": "B0CWPCFSM3",
+        "buyingOptions": [
+          {
+            "price": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/price",
+                "types": ["product.price/v1"]
+              },
+              "type": "product.price/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-amzn-metrics-id": "fasttrack_clickstream_price:2f0f2f5c-7e68-3552-a211-3c2556f4b12f",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "A2I_CONSUMABLES_DISABLE_PPU_FOR_VIRTUAL_BUNDLES_LAUNCH_772695:T1,DSB_MSHOP_PRICE_SUPPRESSION_1139679:T1,CONSUMABLES_DP_SNS_PPU_DISPLAY_PARITY_1262546:T1,PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,ADBL_AMAZON_PRICE_MONTH_TEXT_998611:T1,DP_OFFERS_PRICE_GOOGLE_PLAY_SUPPRESSION_377310:C,BOOKS_BO_PRICE_MESSAGE_WITH_KINDLE_PROGRAMS_1307764:T1"
+              },
+              "entity": {
+                "basisPrice": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "45999.0",
+                      "convertedFrom": {
+                        "amount": "45999.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [],
+                  "shortLabel": "M.R.P:",
+                  "strikethrough": true,
+                  "label": "M.R.P.:",
+                  "type": "LIST_PRICE",
+                  "priceMessage": {}
+                },
+                "priceToPay": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "25999.0",
+                      "convertedFrom": {
+                        "amount": "25999.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [
+                    {
+                      "displayStyle": "SINGLE_LINE",
+                      "id": "TAX_INCLUSIVE_MESSAGE",
+                      "message": {
+                        "text": " Inclusive of all taxes"
+                      }
+                    }
+                  ],
+                  "strikethrough": false,
+                  "label": "Deal Price:",
+                  "type": "BEST_DEAL",
+                  "priceMessage": {}
+                },
+                "savings": {
+                  "money": {
+                    "amount": "20000.0",
+                    "convertedFrom": {
+                      "amount": "20000.0",
+                      "currencyCode": "INR"
+                    },
+                    "currencyCode": "INR"
+                  },
+                  "percentage": {
+                    "displayString": "43%",
+                    "value": 43
+                  },
+                  "message": {}
+                }
+              }
+            },
+            "dealCustomerStatus": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/deal-customer-status",
+                "types": ["product.deal-customer-status/v1"]
+              },
+              "type": "error/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "status": 404,
+                "code": "404.2",
+                "details": {
+                  "message": "This API is not applicable for the given inputs",
+                  "url": "https://api.amazon.com/shop"
+                },
+                "encryptedInternalInfo": "S0lenfOPjaW16hWckOZcZ/mw6nEi4gd8qb+9iX7/1Qb11JfxAcg8P4rTkwUoJEldjIzG9u4ADTtyZDYcW7Rqn71Levpg5vyAdfLr0/1L+kNdRcEObMFSa3hOkPzkxUjrxC0gW4irXT8Mw4oHRMsmZC1BDV2fKmVid+u5j/DYAAgoOyUJWHC875kd57qghdE4A/Ky60TJy5ZZNwTaYiQhdmoriKEy3LsrwhjcIdbNA7sYJURxoQp1cteJlKAlf02rbOV0k0aywBS5PS2UxgNrKkBLNIRzHkmpTVON7X0q4tk06yMgsvlPARfYnGv5mLlpp9TqfzJza1tei4UfPAEqz7PPObxVRt5RxrOVZ/yMINT07BFLxEXIQHwVh1SP6LebXD7tht69MBorK9YHkFRqPhOevUh9W1FvlVGnKdtZQdsfS+aIsa8KEwBXWE34aoKwI+m1NguIwSfaXluCV44GK14HuSoGjOze8KfhqICzKQ94HVdt9SDDpR6FfXNkMTUvCA01oBGl/9AdrmvGPAX3jQJMFTWO7wBU9GOalPtF+Qt4uymIO+uJdpK+FjJBxstC8KVUBLc85f/KHKd93ydAZ/lNq3NKgeTXpjo5d2bDiHsTJcHQtkprHIP2JbdjagY/TpKBqVAwviaGJwq7i4eFqaeg1bVPkS5W04qEnp4t0/VATV8ZMixFkjxaCiEv2sCrUFwJzjxelr7ImUxzb2sAJ85wH4DfZ3V36M3Jtm9FjDI="
+              }
+            },
+            "dealBadge": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/deal-badge",
+                "types": ["product.deal-badge/v1"]
+              },
+              "type": "product.deal-badge/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,PREOWNED_DEALS_BADGING_1316844:C"
+              },
+              "entity": {
+                "instrumentationMetadata": {
+                  "lucidInstrumentationAci": "amzn1.deal.3e70362e"
+                },
+                "label": {
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "43% off"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "ffffff",
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  "experimentalBackgroundColor": "CC0C39"
+                },
+                "messaging": {
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": "Limited time"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "CC0C39",
+                  "experimentalBackgroundColor": "ffffff",
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "Limited time deal"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "promotionsUnified": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/promotions-unified",
+                "types": [
+                  "product.promotions-messaging-v2-large/v1",
+                  "product.promotions-unified/v1",
+                  "product.promotions-messaging-v2-cart/v1",
+                  "product.promotions-messaging-v2-small/v1",
+                  "product.promotions-messaging-v2-details/v1"
+                ]
+              },
+              "type": "product.promotions-unified/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "HAUL_YOU_PAY_PDO_SOURCE_PLUGIN_1320718:T1,VAS_AFP_BXGY_PDO_PLUGIN_1274979:T1,PREOWNED_DEALS_BADGING_1316844:C,BPX_EBOOKS_COUPONS_738139:C,HAUL_PROMOTIONS_BADGES_PLUGIN_1246110:T1,PROMOTIONS_DISCOVERY_COMBINABILITY_PHASE_1_GATING_1347788:C"
+              },
+              "entity": {
+                "summary": {
+                  "unifiedIds": ["/promo/A122JOI2CCXEQP"],
+                  "mediumMessage": {
+                    "message": {
+                      "fragments": [
+                        {
+                          "text": "Up to 5% back with Amazon Pay ICICI card "
+                        },
+                        {
+                          "link": {
+                            "content": {
+                              "text": "Terms"
+                            },
+                            "url": "/promotion/details/popup/A122JOI2CCXEQP?ref=cxcw_bxgx_tc_A122JOI2CCXEQP"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "base": {
+                    "displayStyles": ["UNKNOWN"]
+                  }
+                },
+                "displayablePromotions": [
+                  {
+                    "unifiedId": "/promo/A1JSLFCGF31VZV",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "text": "Price Promotion"
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["PRICE_PROMO", "UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1JSLFCGF31VZV"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A122JOI2CCXEQP",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others. Not applicable on EMI orders and Amazon business transactions. "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Here's how"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Up to 5% back with Amazon Pay ICICI card "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Terms"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP?ref=cxcw_bxgx_tc_A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A122JOI2CCXEQP"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "callToAction": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/call-to-action",
+                "types": [
+                  "product.call-to-action/v1",
+                  "product.call-to-action/v2"
+                ]
+              },
+              "type": "product.call-to-action/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-amzn-metrics-id": "fasttrack_clickstream_cta:1657d319-2ed3-3bd7-8520-ffc5b066c689",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PAX_CHECKOUT_DRAGONFLY_DISABLE_BUYNOW_998410:T1,READ_NOW_CTA_DATAPATH_394825:T1,BOOKS_READNOW_ASK_CONSENT_CALL_TO_ACTION_1336166:T1,BOOKS_SUBSCRIPTIONS_ASK_CONSENT_CALL_TO_ACTION_1336164:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,A2I_BASKET_BUILDING_BUY_NOW_SUPPRESSION_LAUNCH_1342522:T1,RCX_CHECKOUT_ENABLE_CONFIGURABLE_PRODUCTS_1062396:T1,DP_QL_EXHAUSTION_1050990:T1,SEARCH_SCX_1007084:T1"
+              },
+              "entity": {
+                "tangoCheckout": {
+                  "data": {
+                    "displayString": "Buy Now"
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "checkout": {
+                  "data": {
+                    "displayString": "Buy Now",
+                    "parameters": [
+                      {
+                        "value": "add-new",
+                        "name": "addressId"
+                      },
+                      {
+                        "value": "w%2BB5OShpZ%2Bx1z4ULGx9XdK5cGqY98K%2FnAh55oD56waVrO9iS15iuSOpiadOJdWdqijyBvj19BjlwGXiV3TJ37dNCPUZ1uIVwDWkZvYKcMztSgtqYCfjLIFsFN3t65p9RMx57wdFIZOwWg9cSO2ART8KdrKU2xZBU",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "retailwebsite",
+                        "name": "checkoutClientId"
+                      }
+                    ]
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "addToCart": {
+                  "data": {
+                    "displayString": "Add to cart",
+                    "parameters": [
+                      {
+                        "value": "B0CWPCFSM3",
+                        "name": "items[0.base][asin]"
+                      },
+                      {
+                        "value": "w%2BB5OShpZ%2Bx1z4ULGx9XdK5cGqY98K%2FnAh55oD56waVrO9iS15iuSOpiadOJdWdqijyBvj19BjlwGXiV3TJ37dNCPUZ1uIVwDWkZvYKcMztSgtqYCfjLIFsFN3t65p9RMx57wdFIZOwWg9cSO2ART8KdrKU2xZBU",
+                        "name": "items[0.base][offerListingId]"
+                      },
+                      {
+                        "value": "w%2BB5OShpZ%2Bx1z4ULGx9XdK5cGqY98K%2FnAh55oD56waVrO9iS15iuSOpiadOJdWdqijyBvj19BjlwGXiV3TJ37dNCPUZ1uIVwDWkZvYKcMztSgtqYCfjLIFsFN3t65p9RMx57wdFIZOwWg9cSO2ART8KdrKU2xZBU",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "1",
+                        "name": "signInToHUC"
+                      },
+                      {
+                        "value": "true",
+                        "name": "canAddToCart"
+                      }
+                    ],
+                    "type": "DEFAULT"
+                  },
+                  "url": "/gp/add-to-cart/html"
+                }
+              }
+            },
+            "dealDetails": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/buying-options/-_-BWG9pA7WTI6F8f1R38G-JlvJLVMMwfNgSKBpxNOw%3D/deal-details",
+                "types": ["product.deal-details/v1"]
+              },
+              "type": "product.deal-details/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:3d7e7cbe-663b-32cc-a55b-2c01b7a6e401",
+                "x-amzn-metrics-id": "MBOS:58129b85-4a70-3391-ad63-66c5e08c2335",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,PROMOTIONS_FMA_PLUGIN_VARIABLE_PROMO_FIX_1329441:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "startTime": "2025-12-20T18:30:00.000Z",
+                "endTime": "2026-01-10T18:25:00.000Z",
+                "id": "3e70362e",
+                "state": "AVAILABLE",
+                "type": "BEST_DEAL"
+              }
+            },
+            "type": "NEW"
+          }
+        ],
+        "productImages": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/product-images",
+            "types": ["product.product-images/v2"]
+          },
+          "type": "product.product-images/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_GEM_CHIMERA_PIV2_DATAPATH_GATING_1313632:T1,BUYX_DP_PINFO_PRODUCT_IMAGES_NO_IMAGE_CACHE_SKIP_1242055:T1,A2I_IES_EVAL_ZOOMED_IN_IMAGES_DATAPATH_1262279:T1,BOOKS_DP_AKIRA_TWISTER_R2D2_1238376:T1,F2_GEM_MEDIA_ESSENTIALS_DEDUPLICATION_GATING_1277603:C,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "images": [
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81pQfKZBmXL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41ASR9mjFTL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "A5A4F5"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "eff4f8"
+                      },
+                      "ratio": 0.6827
+                    },
+                    {
+                      "color": {
+                        "hexValue": "a5abcb"
+                      },
+                      "ratio": 0.1161
+                    },
+                    {
+                      "color": {
+                        "hexValue": "030408"
+                      },
+                      "ratio": 0.0765
+                    },
+                    {
+                      "color": {
+                        "hexValue": "798de6"
+                      },
+                      "ratio": 0.0737
+                    },
+                    {
+                      "color": {
+                        "hexValue": "7762d9"
+                      },
+                      "ratio": 0.051
+                    }
+                  ]
+                },
+                "variant": "MAIN"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81oveNuB3TL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51-Ea7T2ruL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT01"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81wlNlQilEL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51OqD4DhIdL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT02"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71B9eJjk4-L",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51KAJAKzorL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT03"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81bR+0rER-L",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51yJ6yq+OCL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT04"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81k-qvGW5+L",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51lNN9gyVIL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT05"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81Oht4UefhL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51mF36zt2TL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT06"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81MKw90OCOL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51ERzOCpBiL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT07"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81furJ4EruL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51Hhhf2NoJL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT08"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71QUcNAtZaL",
+                  "width": 2554,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41UzdXgaWdL",
+                  "width": 499,
+                  "height": 500
+                },
+                "variant": "PT09"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71mrJgrXF-L",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41MUncyNVEL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT10"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61D-RoHDTDL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "31aMjsX8uRL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "A8ABAD"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "fcfcfc"
+                      },
+                      "ratio": 0.9803
+                    },
+                    {
+                      "color": {
+                        "hexValue": "44494d"
+                      },
+                      "ratio": 0.0197
+                    }
+                  ]
+                },
+                "variant": "PT11"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71YPPRZymkL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41-uSL0uobL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT12"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71Hf6E+XHpL",
+                  "width": 2560,
+                  "height": 2560
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "410hP+lUHqL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT13"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "51rmOYMa3WL",
+                  "width": 1500,
+                  "height": 1600
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51rmOYMa3WL",
+                  "width": 1500,
+                  "height": 1600
+                },
+                "variant": "INBX"
+              }
+            ],
+            "altText": "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 256GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display"
+          }
+        },
+        "title": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/title",
+            "types": [
+              "product.brand-separated-title/v1",
+              "product.offer.catalog-title/v1",
+              "product.offer.title/v1"
+            ]
+          },
+          "type": "product.offer.title/v1",
+          "entity": {
+            "displayString": "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 256GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display"
+          }
+        },
+        "brandLogo": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/brand-logo",
+            "types": ["product.brand-logo/v1"]
+          },
+          "type": "product.brand-logo/v1",
+          "entity": {
+            "logo": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/brands/46655/logo",
+                "types": ["brand.logo/v1"]
+              },
+              "type": "brand.logo/v1",
+              "entity": {
+                "altText": "Samsung",
+                "mediaAsset": {
+                  "extension": "jpg",
+                  "height": 600,
+                  "physicalId": "51NsiO4mTPL",
+                  "width": 600
+                }
+              }
+            }
+          }
+        },
+        "twisterVariations": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/twister-variations",
+            "types": ["product.twister-variations/v2"]
+          },
+          "type": "product.twister-variations/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_MERCH_FIX_TWISTER_SORTING_964335:T1,SEARCH_EUSTORES_PUIS_CS_ADP_GATING_1316704:T1,BUYX_DP_APPEND_STOREIDS_TO_PRODUCT_REFERENCE_1158131:T1,TWISTER_FO_AAPI_METADATA_776202:T1,TWISTER_PRODUCT_SPEC_394237:C,NAS_SHAKE_SIZE_CONVERSIONS_METADATA_AGGREGATOR_GATING_1296941:T1,BUYX_DP_ENABLE_DISCRIMINATOR_FILTER_GATING_1160688:T1"
+          },
+          "entity": {
+            "dimensionMetadata": [
+              {
+                "values": [
+                  {
+                    "colorCode": {
+                      "primary": "#E0E5ED"
+                    }
+                  },
+                  {
+                    "colorCode": {
+                      "primary": "#262931"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": []
+              },
+              {
+                "values": []
+              }
+            ],
+            "dimensionKeys": [
+              {
+                "symbol": "color_name",
+                "displayString": "Colour"
+              },
+              {
+                "symbol": "size_name",
+                "displayString": "Size"
+              },
+              {
+                "symbol": "style_name",
+                "displayString": "Style Name"
+              }
+            ],
+            "dimensionValues": [
+              ["Awesome Iceblue", "Awesome Navy"],
+              ["8GB + 128GB", "8GB + 256GB", "12GB + 256GB"],
+              ["With exchange bonus or No cost EMI"]
+            ],
+            "variations": [
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPC2W5V",
+                    "types": []
+                  }
+                },
+                "values": [0, 0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3",
+                    "types": []
+                  }
+                },
+                "values": [0, 1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPDFBK7",
+                    "types": []
+                  }
+                },
+                "values": [0, 2, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPDH74H",
+                    "types": []
+                  }
+                },
+                "values": [1, 0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPBBQ3M",
+                    "types": []
+                  }
+                },
+                "values": [1, 1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPD9PTK",
+                    "types": []
+                  }
+                },
+                "values": [1, 2, 0]
+              }
+            ]
+          }
+        },
+        "links": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/links",
+            "types": ["product.links/v2", "product.links/v3"]
+          },
+          "type": "product.links/v2",
+          "metadata": {
+            "x-api-exp-data": "EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "viewOnAmazon": {
+              "url": "/Samsung-Awesome-Iceblue-Storage-Nightography/dp/B0CWPCFSM3"
+            }
+          }
+        },
+        "productCategory": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0CWPCFSM3/product-category",
+            "types": ["product.offer.product-category/v1"]
+          },
+          "type": "product.offer.product-category/v1",
+          "entity": {
+            "glProductGroup": {
+              "symbol": "gl_wireless"
+            },
+            "websiteDisplayGroup": {
+              "symbol": "wireless_display_on_website",
+              "displayString": "Wireless"
+            },
+            "subCategoryId": "10700907",
+            "categoryId": "10700100",
+            "productType": "CELLULAR_PHONE"
+          }
+        }
+      }
+    }
+  },
+  {
+    "brandId": "13145",
+    "departmentIds": ["1389432031", "976419031", "976420031"],
+    "metadata": {
+      "isPinned": false
+    },
+    "product": {
+      "resource": {
+        "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K",
+        "types": [
+          "product.offer-comparison-experience/v1",
+          "product/v1",
+          "product/v3",
+          "product/v2"
+        ]
+      },
+      "type": "product/v2",
+      "entity": {
+        "asin": "B0G2C9ZS7K",
+        "buyingOptions": [
+          {
+            "price": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/price",
+                "types": ["product.price/v1"]
+              },
+              "type": "product.price/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-amzn-metrics-id": "fasttrack_clickstream_price:9a773cc0-4804-35b6-a920-dd47e48305f1",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "A2I_CONSUMABLES_DISABLE_PPU_FOR_VIRTUAL_BUNDLES_LAUNCH_772695:T1,CONSUMABLES_DP_SNS_PPU_DISPLAY_PARITY_1262546:T1,DSB_MSHOP_PRICE_SUPPRESSION_1139679:T1,PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,ADBL_AMAZON_PRICE_MONTH_TEXT_998611:T1,DP_OFFERS_PRICE_GOOGLE_PLAY_SUPPRESSION_377310:C,BOOKS_BO_PRICE_MESSAGE_WITH_KINDLE_PROGRAMS_1307764:T1"
+              },
+              "entity": {
+                "basisPrice": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "83999.0",
+                      "convertedFrom": {
+                        "amount": "83999.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [],
+                  "shortLabel": "M.R.P:",
+                  "strikethrough": true,
+                  "label": "M.R.P.:",
+                  "type": "LIST_PRICE",
+                  "priceMessage": {}
+                },
+                "priceToPay": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "75999.0",
+                      "convertedFrom": {
+                        "amount": "75999.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [
+                    {
+                      "displayStyle": "SINGLE_LINE",
+                      "id": "TAX_INCLUSIVE_MESSAGE",
+                      "message": {
+                        "text": " Inclusive of all taxes"
+                      }
+                    }
+                  ],
+                  "strikethrough": false,
+                  "label": "Deal Price:",
+                  "type": "BEST_DEAL",
+                  "priceMessage": {}
+                },
+                "savings": {
+                  "money": {
+                    "amount": "8000.0",
+                    "convertedFrom": {
+                      "amount": "8000.0",
+                      "currencyCode": "INR"
+                    },
+                    "currencyCode": "INR"
+                  },
+                  "percentage": {
+                    "displayString": "10%",
+                    "value": 10
+                  },
+                  "message": {}
+                }
+              }
+            },
+            "dealCustomerStatus": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/deal-customer-status",
+                "types": ["product.deal-customer-status/v1"]
+              },
+              "type": "error/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "status": 404,
+                "code": "404.2",
+                "details": {
+                  "message": "This API is not applicable for the given inputs",
+                  "url": "https://api.amazon.com/shop"
+                },
+                "encryptedInternalInfo": "nIue+f5JJSCnWlyjCaJq1CH3LtnNJILpIIDyqeH7qOxi7L/yp/dmrKkBytIRRlqxNZLH1PG5JdDIHop/0CIsg0IpWW42djOdqJxuov2wrEzYO7FzLNAAyP0eLYE/5ZqGfQRwSIzF1tda1ogot3hyVKR/sTAK6baRJ2E+j/USyptIw2D4dYXNDU+gKke2erwRvwst34qJdESmfTxLVi3u+8EXf4UQ5ygfWIT4wfHTAAfLzM5PA5eMTLPhBF8Z83pWltfSeibMjTd1Dt4lITqmu1bqptr6BuRge8PFhK2tQhOoVf2oS4CtABxzabLsRlDBPUrahwJG3yMCgNbQxCRumad8MDiG3FZAQt3zlxpwjh7+eH+vFVsLsorsMWiznqvHAdPq9socNWhuMaPYHCDNXqQkWt9SJWeVeiz+IRFDNhypYgmRofX6pyEBbifOLgm3Om6v68wW5riyWPCqp23FRb422ERiSsSatszKwLMXWRRtsaTneVbQS6LXpCmZ5Lv2OaFQDAYg5hWAEzhauiNvra+jfBFGdgP44HZzeTR+Qhx/LsdUXHQKRLiL9Nq00Y3Cn9ep5v5WylCZLNS5Hr8quY+inY1KpsiybknT8B27bq0tdRS57IV7UPktGnlpE6KgkOz8I8draJR0isz5sTTP1RkNPFIceTuHflQ9mUCS8eBdRoYkniXa9Tmrc69H/2oCLFybAJKn7RCisVjGYWV68AxneOEBb0wBAg14cxWdCPs="
+              }
+            },
+            "dealBadge": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/deal-badge",
+                "types": ["product.deal-badge/v1"]
+              },
+              "type": "product.deal-badge/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,PREOWNED_DEALS_BADGING_1316844:C"
+              },
+              "entity": {
+                "instrumentationMetadata": {
+                  "lucidInstrumentationAci": "amzn1.deal.cfbc3ab4"
+                },
+                "label": {
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "10% off"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "ffffff",
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  "experimentalBackgroundColor": "CC0C39"
+                },
+                "messaging": {
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": "Limited time"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "CC0C39",
+                  "experimentalBackgroundColor": "ffffff",
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "Limited time deal"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "promotionsUnified": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/promotions-unified",
+                "types": [
+                  "product.promotions-messaging-v2-large/v1",
+                  "product.promotions-unified/v1",
+                  "product.promotions-messaging-v2-cart/v1",
+                  "product.promotions-messaging-v2-small/v1",
+                  "product.promotions-messaging-v2-details/v1"
+                ]
+              },
+              "type": "product.promotions-unified/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "HAUL_YOU_PAY_PDO_SOURCE_PLUGIN_1320718:T1,VAS_AFP_BXGY_PDO_PLUGIN_1274979:T1,PREOWNED_DEALS_BADGING_1316844:C,BPX_EBOOKS_COUPONS_738139:C,HAUL_PROMOTIONS_BADGES_PLUGIN_1246110:T1,PROMOTIONS_DISCOVERY_COMBINABILITY_PHASE_1_GATING_1347788:C"
+              },
+              "entity": {
+                "summary": {
+                  "unifiedIds": ["/promo/A1FFRAODL6ON7K"],
+                  "mediumMessage": {
+                    "message": {
+                      "fragments": [
+                        {
+                          "text": "Flat INR 7500 Off on ICICI BankCards "
+                        },
+                        {
+                          "link": {
+                            "content": {
+                              "text": "Shop items"
+                            },
+                            "url": "/promotion/psp/A1FFRAODL6ON7K?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1FFRAODL6ON7K"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "base": {
+                    "displayStyles": ["UNKNOWN"]
+                  }
+                },
+                "displayablePromotions": [
+                  {
+                    "unifiedId": "/promo/A1G8ZVOB1ERDTI",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "text": "Price Promotion"
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["PRICE_PROMO", "UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1G8ZVOB1ERDTI"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A1FFRAODL6ON7K",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Instant Discount on ICICI Bank Credit Card EMI Non-EMI Txn. Minimum purchase value INR 40576 "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1FFRAODL6ON7K?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1FFRAODL6ON7K"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Off on ICICI BankCards "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1FFRAODL6ON7K?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1FFRAODL6ON7K"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1FFRAODL6ON7K"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A1PSOD7WE0B2YE",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Instant Discount on HDFC Bank Credit Card EMI Non-EMI Txn. Minimum purchase value INR 40576 "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1PSOD7WE0B2YE?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1PSOD7WE0B2YE"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Off on HDFC BankCards "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1PSOD7WE0B2YE?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1PSOD7WE0B2YE"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1PSOD7WE0B2YE"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A1378ZMCTS2CB5",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Instant Discount on Axis Bank Credit Card EMI Non-EMI Txn. Minimum purchase value INR 40576 "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1378ZMCTS2CB5?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1378ZMCTS2CB5"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 7500 Off on Axis BankCards "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1378ZMCTS2CB5?ref=psp_external&redirectAsin=B0G2C9ZS7K&redirectMerchantId=AJ6SIZC8YQDZX&ref=sopp_psp_A1378ZMCTS2CB5"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1378ZMCTS2CB5"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A122JOI2CCXEQP",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others. Not applicable on EMI orders and Amazon business transactions. "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Here's how"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Up to 5% back with Amazon Pay ICICI card "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Terms"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP?ref=cxcw_bxgx_tc_A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A122JOI2CCXEQP"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "callToAction": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/call-to-action",
+                "types": [
+                  "product.call-to-action/v1",
+                  "product.call-to-action/v2"
+                ]
+              },
+              "type": "product.call-to-action/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-amzn-metrics-id": "fasttrack_clickstream_cta:c76bb39b-1c70-351d-8ac1-b6e41193ea29",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PAX_CHECKOUT_DRAGONFLY_DISABLE_BUYNOW_998410:T1,READ_NOW_CTA_DATAPATH_394825:T1,BOOKS_READNOW_ASK_CONSENT_CALL_TO_ACTION_1336166:T1,BOOKS_SUBSCRIPTIONS_ASK_CONSENT_CALL_TO_ACTION_1336164:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,RCX_CHECKOUT_ENABLE_CONFIGURABLE_PRODUCTS_1062396:T1,A2I_BASKET_BUILDING_BUY_NOW_SUPPRESSION_LAUNCH_1342522:T1,DP_QL_EXHAUSTION_1050990:T1,SEARCH_SCX_1007084:T1"
+              },
+              "entity": {
+                "tangoCheckout": {
+                  "data": {
+                    "displayString": "Buy Now"
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "checkout": {
+                  "data": {
+                    "displayString": "Buy Now",
+                    "parameters": [
+                      {
+                        "value": "add-new",
+                        "name": "addressId"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wIG0NgGV8Qx1hXplvgtO8nFaQU8WgT2S9WpGPIS5GG64LZ358%2BMV5pDk0Iv%2FZ2M9x5txjk7m%2BK7fyp6uv7FTwxvkhfHtyKQmLHfnmICSFDuJh%2Fq70GLxHHpLypMjcWg04eWeqhw2cuWa",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "retailwebsite",
+                        "name": "checkoutClientId"
+                      }
+                    ]
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "addToCart": {
+                  "data": {
+                    "displayString": "Add to cart",
+                    "parameters": [
+                      {
+                        "value": "B0G2C9ZS7K",
+                        "name": "items[0.base][asin]"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wIG0NgGV8Qx1hXplvgtO8nFaQU8WgT2S9WpGPIS5GG64LZ358%2BMV5pDk0Iv%2FZ2M9x5txjk7m%2BK7fyp6uv7FTwxvkhfHtyKQmLHfnmICSFDuJh%2Fq70GLxHHpLypMjcWg04eWeqhw2cuWa",
+                        "name": "items[0.base][offerListingId]"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wIG0NgGV8Qx1hXplvgtO8nFaQU8WgT2S9WpGPIS5GG64LZ358%2BMV5pDk0Iv%2FZ2M9x5txjk7m%2BK7fyp6uv7FTwxvkhfHtyKQmLHfnmICSFDuJh%2Fq70GLxHHpLypMjcWg04eWeqhw2cuWa",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "1",
+                        "name": "signInToHUC"
+                      },
+                      {
+                        "value": "true",
+                        "name": "canAddToCart"
+                      }
+                    ],
+                    "type": "DEFAULT"
+                  },
+                  "url": "/gp/add-to-cart/html"
+                }
+              }
+            },
+            "dealDetails": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/buying-options/p2gWL3F3XGjFUisXAa5UrK3-T4BxI04zA4NIiRHVxeY%3D/deal-details",
+                "types": ["product.deal-details/v1"]
+              },
+              "type": "product.deal-details/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:8b25b61d-0417-34c3-b3c9-7aaf1cb43760",
+                "x-amzn-metrics-id": "MBOS:0577313b-0266-3ae3-a62e-708b59496131",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "startTime": "2025-12-01T18:30:00.000Z",
+                "endTime": "2026-01-10T18:25:00.000Z",
+                "id": "cfbc3ab4",
+                "state": "AVAILABLE",
+                "type": "BEST_DEAL"
+              }
+            },
+            "type": "NEW"
+          }
+        ],
+        "productImages": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/product-images",
+            "types": ["product.product-images/v2"]
+          },
+          "type": "product.product-images/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_GEM_CHIMERA_PIV2_DATAPATH_GATING_1313632:T1,BUYX_DP_PINFO_PRODUCT_IMAGES_NO_IMAGE_CACHE_SKIP_1242055:T1,A2I_IES_EVAL_ZOOMED_IN_IMAGES_DATAPATH_1262279:T1,BOOKS_DP_AKIRA_TWISTER_R2D2_1238376:T1,F2_GEM_MEDIA_ESSENTIALS_DEDUPLICATION_GATING_1277603:C,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "images": [
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "715fbV1RX8L",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41risCVHKnL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "FFF7F7"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "210909"
+                      },
+                      "ratio": 0.2747
+                    },
+                    {
+                      "color": {
+                        "hexValue": "fffdfd"
+                      },
+                      "ratio": 0.2544
+                    },
+                    {
+                      "color": {
+                        "hexValue": "4c3c3f"
+                      },
+                      "ratio": 0.2111
+                    },
+                    {
+                      "color": {
+                        "hexValue": "5c1f24"
+                      },
+                      "ratio": 0.1488
+                    },
+                    {
+                      "color": {
+                        "hexValue": "964448"
+                      },
+                      "ratio": 0.111
+                    }
+                  ]
+                },
+                "variant": "MAIN"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61D3nSp+sHL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "31HKqS5P+ZL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "FRNT"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "51WUqxGiMLL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "213BmX2aLxL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "SIDE"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61bpKoxnsgL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "319I5yRlFIL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "BACK"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81wsZpe9KiL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51X3kof7GGL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT01"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71M+Yc83KDL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41nfSrJBDDL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT02"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81iYJdLe6kL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51eUrKScwHL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT03"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71+qdySiLwL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41JQzG1U8DL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT04"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81ck7vS5hSL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51-+mqwVGaL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT05"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81AdHWjTCiL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51x9VNCBb1L",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT06"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71Y6v+wLjAL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41+y3I-Q4OL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT07"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71tJPmnOI+L",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51xAGu6pjVL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT08"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71HRCoMPuaL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41XEwW4NzqL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT09"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71ee-aji5tL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41Pz5ay-4PL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT10"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71lpayV36EL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41goBfWTMmL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT11"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "81kuPuXi7gL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51k8pIjUefL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT12"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "818CRD-wyPL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "51NVYLnkb3L",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT13"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61IBJ8fNISL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41WyuO+W5eL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT14"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "51IC2BYfPlL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "21sOrr0htAL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT15"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61XcR0rMUqL",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41HiXwxausL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT16"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71dvpQg5uML",
+                  "width": 2000,
+                  "height": 2000
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41E0VrSmfbL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "F79234"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "ffffff"
+                      },
+                      "ratio": 0.5654
+                    },
+                    {
+                      "color": {
+                        "hexValue": "734120"
+                      },
+                      "ratio": 0.2367
+                    },
+                    {
+                      "color": {
+                        "hexValue": "464936"
+                      },
+                      "ratio": 0.0883
+                    },
+                    {
+                      "color": {
+                        "hexValue": "c5985f"
+                      },
+                      "ratio": 0.0636
+                    },
+                    {
+                      "color": {
+                        "hexValue": "aaaaaa"
+                      },
+                      "ratio": 0.0459
+                    }
+                  ]
+                },
+                "variant": "PT17"
+              }
+            ],
+            "altText": "vivo X300 5G (Summit Red, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers"
+          }
+        },
+        "title": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/title",
+            "types": [
+              "product.brand-separated-title/v1",
+              "product.offer.catalog-title/v1",
+              "product.offer.title/v1"
+            ]
+          },
+          "type": "product.offer.title/v1",
+          "entity": {
+            "displayString": "vivo X300 5G (Summit Red, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers"
+          }
+        },
+        "brandLogo": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/brand-logo",
+            "types": ["product.brand-logo/v1"]
+          },
+          "type": "product.brand-logo/v1",
+          "entity": {
+            "logo": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/brands/13145/logo",
+                "types": ["brand.logo/v1"]
+              },
+              "type": "brand.logo/v1",
+              "entity": {
+                "altText": "vivo",
+                "mediaAsset": {
+                  "extension": "jpg",
+                  "height": 1950,
+                  "physicalId": "61D6ryI+V0L",
+                  "width": 1950
+                }
+              }
+            }
+          }
+        },
+        "twisterVariations": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/twister-variations",
+            "types": ["product.twister-variations/v2"]
+          },
+          "type": "product.twister-variations/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_MERCH_FIX_TWISTER_SORTING_964335:T1,SEARCH_EUSTORES_PUIS_CS_ADP_GATING_1316704:T1,BUYX_DP_APPEND_STOREIDS_TO_PRODUCT_REFERENCE_1158131:T1,TWISTER_FO_AAPI_METADATA_776202:T1,TWISTER_PRODUCT_SPEC_394237:C,NAS_SHAKE_SIZE_CONVERSIONS_METADATA_AGGREGATOR_GATING_1296941:T1,BUYX_DP_ENABLE_DISCRIMINATOR_FILTER_GATING_1160688:T1"
+          },
+          "entity": {
+            "dimensionMetadata": [
+              {
+                "values": [
+                  {
+                    "colorCode": {
+                      "primary": "#474747"
+                    }
+                  },
+                  {
+                    "colorCode": {
+                      "primary": "#D8E6EB"
+                    }
+                  },
+                  {
+                    "colorCode": {
+                      "primary": "#713337"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": []
+              },
+              {
+                "values": []
+              }
+            ],
+            "dimensionKeys": [
+              {
+                "symbol": "color_name",
+                "displayString": "Colour"
+              },
+              {
+                "symbol": "size_name",
+                "displayString": "Size"
+              },
+              {
+                "symbol": "style_name",
+                "displayString": "Style Name"
+              }
+            ],
+            "dimensionValues": [
+              ["Elite Black", "Mist Blue", "Summit Red"],
+              [
+                "12GB RAM + 256GB Storage",
+                "12GB RAM + 512GB Storage",
+                "16GB RAM + 512GB Storage"
+              ],
+              ["With exchange bonus or No cost EMI"]
+            ],
+            "variations": [
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2CB88TC",
+                    "types": []
+                  }
+                },
+                "values": [0, 0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2RMPPND",
+                    "types": []
+                  }
+                },
+                "values": [0, 1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C893L2",
+                    "types": []
+                  }
+                },
+                "values": [0, 2, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2CGPZ9V",
+                    "types": []
+                  }
+                },
+                "values": [1, 0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2RW4Z54",
+                    "types": []
+                  }
+                },
+                "values": [1, 1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C8K5HJ",
+                    "types": []
+                  }
+                },
+                "values": [1, 2, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K",
+                    "types": []
+                  }
+                },
+                "values": [2, 0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2RR9KSL",
+                    "types": []
+                  }
+                },
+                "values": [2, 1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2CDMJXJ",
+                    "types": []
+                  }
+                },
+                "values": [2, 2, 0]
+              }
+            ]
+          }
+        },
+        "links": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/links",
+            "types": ["product.links/v2", "product.links/v3"]
+          },
+          "type": "product.links/v2",
+          "metadata": {
+            "x-api-exp-data": "EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "viewOnAmazon": {
+              "url": "/vivo-X300-Storage-Additional-Exchange/dp/B0G2C9ZS7K"
+            }
+          }
+        },
+        "productCategory": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0G2C9ZS7K/product-category",
+            "types": ["product.offer.product-category/v1"]
+          },
+          "type": "product.offer.product-category/v1",
+          "entity": {
+            "glProductGroup": {
+              "symbol": "gl_wireless"
+            },
+            "websiteDisplayGroup": {
+              "symbol": "wireless_display_on_website",
+              "displayString": "Wireless"
+            },
+            "subCategoryId": "10700907",
+            "productType": "CELLULAR_PHONE",
+            "categoryId": "10700100"
+          }
+        }
+      }
+    }
+  },
+  {
+    "brandId": "253649",
+    "departmentIds": ["1389432031", "976419031", "976420031"],
+    "metadata": {
+      "isPinned": false
+    },
+    "product": {
+      "resource": {
+        "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX",
+        "types": [
+          "product.offer-comparison-experience/v1",
+          "product/v1",
+          "product/v3",
+          "product/v2"
+        ]
+      },
+      "type": "product/v2",
+      "entity": {
+        "asin": "B0FTRMJNPX",
+        "buyingOptions": [
+          {
+            "price": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/price",
+                "types": ["product.price/v1"]
+              },
+              "type": "product.price/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-amzn-metrics-id": "fasttrack_clickstream_price:538e7e0d-0886-3e43-ac04-e58730ce8b67",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "A2I_CONSUMABLES_DISABLE_PPU_FOR_VIRTUAL_BUNDLES_LAUNCH_772695:T1,CONSUMABLES_DP_SNS_PPU_DISPLAY_PARITY_1262546:T1,DSB_MSHOP_PRICE_SUPPRESSION_1139679:T1,PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,ADBL_AMAZON_PRICE_MONTH_TEXT_998611:T1,DP_OFFERS_PRICE_GOOGLE_PLAY_SUPPRESSION_377310:C,BOOKS_BO_PRICE_MESSAGE_WITH_KINDLE_PROGRAMS_1307764:T1"
+              },
+              "entity": {
+                "basisPrice": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "83999.0",
+                      "convertedFrom": {
+                        "amount": "83999.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [],
+                  "shortLabel": "M.R.P:",
+                  "strikethrough": true,
+                  "label": "M.R.P.:",
+                  "type": "LIST_PRICE",
+                  "priceMessage": {}
+                },
+                "priceToPay": {
+                  "moneyValueOrRange": {
+                    "value": {
+                      "amount": "79998.0",
+                      "convertedFrom": {
+                        "amount": "79998.0",
+                        "currencyCode": "INR"
+                      },
+                      "currencyCode": "INR"
+                    }
+                  },
+                  "impositions": [
+                    {
+                      "displayStyle": "SINGLE_LINE",
+                      "id": "TAX_INCLUSIVE_MESSAGE",
+                      "message": {
+                        "text": " Inclusive of all taxes"
+                      }
+                    }
+                  ],
+                  "strikethrough": false,
+                  "label": "Deal Price:",
+                  "type": "BEST_DEAL",
+                  "priceMessage": {}
+                },
+                "savings": {
+                  "money": {
+                    "amount": "4001.0",
+                    "convertedFrom": {
+                      "amount": "4001.0",
+                      "currencyCode": "INR"
+                    },
+                    "currencyCode": "INR"
+                  },
+                  "percentage": {
+                    "displayString": "5%",
+                    "value": 5
+                  },
+                  "message": {}
+                }
+              }
+            },
+            "dealCustomerStatus": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/deal-customer-status",
+                "types": ["product.deal-customer-status/v1"]
+              },
+              "type": "error/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "status": 404,
+                "code": "404.2",
+                "details": {
+                  "message": "This API is not applicable for the given inputs",
+                  "url": "https://api.amazon.com/shop"
+                },
+                "encryptedInternalInfo": "vI2sHVq+7wfed6B2k+X7lOf0QcloZRvpGbNHpT+FGxUA4A0xOpKCka0SFiPqFx6TCMZEYIn1NrCJ8SdGoO4x10EapHgJ9FRD8JgFpjMHh9ljne0txTnG8H0w4s7AopOOMEyeKKI1auYmFetjRkox8yLbCPQhxrnfQbN1o64ErfeuR2bJD1sDl95QjB96iyKG8l7mITaRc+Ci1Zb7gvQqYzrjyW9S574HYKUq8BHCfepfLqtkx0QaIjRCaGlDTTG8R+SqfNUtYcJXMI42Gni/Uc6IDMHZLdnHnFP5uizyRpZ5nuvQDfuMYvvQryg9MpRK8Ty3S1wFicIwMf/tu/JKd6sIc4l8ik+H0vF06MEgm8lXKpyWetndOBhkWcwsbMP3IyBa5o3sWMg6fIf+MMH8Oc92ciD3saX01cvtLfAZ8AqdZyUaEbhtTVJknJSYY0OMKz1VW6xsl4jiyMg9yviMFYFQAzsevoZxipMn7xd8DyKX+CLy9xVujNRKOoQ9LbkI/xVJFSYBv4jaXtvVsZWOKo+gwTAdVgq8klLqtNEm8YbvqLFTk6Rcg4CT2hEy/cjOdBfo42xO2byWJ/VohffWt2RPKoY8TXzI/VkS65Y+zkeD6YvnChWd+YrBj8VLLr10vYb7SAq9KlM7tgtLUmYnJZXlgfMS1GEB4l640dhQ0oE3c9d2p09edag3pMYot2OUBu0EUpwiwFMDd+/aujol+Ciip8/bTpCl2JrMWC0LWIw="
+              }
+            },
+            "dealBadge": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/deal-badge",
+                "types": ["product.deal-badge/v1"]
+              },
+              "type": "product.deal-badge/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PROMOTIONS_PRICE_INSIGHTS_GATING_1327715:T1,PREOWNED_DEALS_BADGING_1316844:C"
+              },
+              "entity": {
+                "instrumentationMetadata": {
+                  "lucidInstrumentationAci": "amzn1.deal.5d30ece1"
+                },
+                "label": {
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "5% off"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "ffffff",
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  "experimentalBackgroundColor": "CC0C39"
+                },
+                "messaging": {
+                  "shortContent": {
+                    "fragments": [
+                      {
+                        "text": "Limited time"
+                      }
+                    ]
+                  },
+                  "experimentalColor": "CC0C39",
+                  "experimentalBackgroundColor": "ffffff",
+                  "content": {
+                    "fragments": [
+                      {
+                        "text": "Limited time deal"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "promotionsUnified": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/promotions-unified",
+                "types": [
+                  "product.promotions-messaging-v2-large/v1",
+                  "product.promotions-unified/v1",
+                  "product.promotions-messaging-v2-cart/v1",
+                  "product.promotions-messaging-v2-small/v1",
+                  "product.promotions-messaging-v2-details/v1"
+                ]
+              },
+              "type": "product.promotions-unified/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "HAUL_YOU_PAY_PDO_SOURCE_PLUGIN_1320718:T1,VAS_AFP_BXGY_PDO_PLUGIN_1274979:T1,PREOWNED_DEALS_BADGING_1316844:C,BPX_EBOOKS_COUPONS_738139:C,HAUL_PROMOTIONS_BADGES_PLUGIN_1246110:T1,PROMOTIONS_DISCOVERY_COMBINABILITY_PHASE_1_GATING_1347788:C"
+              },
+              "entity": {
+                "summary": {
+                  "unifiedIds": ["/promo/AZV8LWSVF7MU0"],
+                  "mediumMessage": {
+                    "message": {
+                      "fragments": [
+                        {
+                          "text": "10% Off on select cards "
+                        },
+                        {
+                          "link": {
+                            "content": {
+                              "text": "Shop items"
+                            },
+                            "url": "/promotion/psp/AZV8LWSVF7MU0?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_AZV8LWSVF7MU0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "base": {
+                    "displayStyles": ["UNKNOWN"]
+                  }
+                },
+                "displayablePromotions": [
+                  {
+                    "unifiedId": "/promo/A2JBYIKYZ6C8UD",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "text": "Price Promotion"
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["PRICE_PROMO", "UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A2JBYIKYZ6C8UD"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/AZV8LWSVF7MU0",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Flat INR 2000 Instant Discount on ALL Banks Credit and Debit Card Trxns. Minimum purchase value INR 78990 "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/AZV8LWSVF7MU0?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_AZV8LWSVF7MU0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "10% Off on select cards "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/AZV8LWSVF7MU0?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_AZV8LWSVF7MU0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.AZV8LWSVF7MU0"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A20VNHV0OTC9A0",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "5% Instant Discount up to INR 1500 on Scapia Federal Bank Credit Card EMI Trnxs. Min purchase value INR 10000 "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Here's how"
+                              },
+                              "url": "/promotion/details/popup/A20VNHV0OTC9A0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "5% Off on select cards "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Terms"
+                              },
+                              "url": "/promotion/details/popup/A20VNHV0OTC9A0?ref=cxcw_bxgx_tc_A20VNHV0OTC9A0"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A20VNHV0OTC9A0"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A3LUWMFZM7FA8J",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "OnePlus 15: Paytm Flight Voucher "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A3LUWMFZM7FA8J?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A3LUWMFZM7FA8J"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "OnePlus 15: Paytm Flight Voucher "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A3LUWMFZM7FA8J?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A3LUWMFZM7FA8J"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A3LUWMFZM7FA8J"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A1CBX0QNDZR7SW",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Jio OnePlus 15 Series "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1CBX0QNDZR7SW?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A1CBX0QNDZR7SW"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Jio OnePlus 15 Series "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A1CBX0QNDZR7SW?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A1CBX0QNDZR7SW"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A1CBX0QNDZR7SW"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A109U5J2J7EDZX",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Free 180-Day Phone Replacement Plan "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A109U5J2J7EDZX?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A109U5J2J7EDZX"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Free 180-Day Phone Replacement Plan "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/A109U5J2J7EDZX?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_A109U5J2J7EDZX"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A109U5J2J7EDZX"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/ATO5VSJYO9O0T",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Lifetime Warranty: Free screen upgrade "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/ATO5VSJYO9O0T?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_ATO5VSJYO9O0T"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Lifetime Warranty: Free screen upgrade "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Shop items"
+                              },
+                              "url": "/promotion/psp/ATO5VSJYO9O0T?ref=psp_external&redirectAsin=B0FTRMJNPX&redirectMerchantId=A2FS4NK0NQR709&ref=sopp_psp_ATO5VSJYO9O0T"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.ATO5VSJYO9O0T"
+                      }
+                    }
+                  },
+                  {
+                    "unifiedId": "/promo/A122JOI2CCXEQP",
+                    "associatedPaymentInstruments": [],
+                    "longMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Get 5% back with Amazon Pay ICICI Bank credit card for Prime members. 3% back for others. Not applicable on EMI orders and Amazon business transactions. "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Here's how"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "mediumMessage": {
+                      "message": {
+                        "fragments": [
+                          {
+                            "text": "Up to 5% back with Amazon Pay ICICI card "
+                          },
+                          {
+                            "link": {
+                              "content": {
+                                "text": "Terms"
+                              },
+                              "url": "/promotion/details/popup/A122JOI2CCXEQP?ref=cxcw_bxgx_tc_A122JOI2CCXEQP"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "base": {
+                      "displayStyles": ["UNKNOWN"],
+                      "instrumentationMetadata": {
+                        "lucidInstrumentationAci": "amzn1.promotion.A122JOI2CCXEQP"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "callToAction": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/call-to-action",
+                "types": [
+                  "product.call-to-action/v1",
+                  "product.call-to-action/v2"
+                ]
+              },
+              "type": "product.call-to-action/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-amzn-metrics-id": "fasttrack_clickstream_cta:c76bb39b-1c70-351d-8ac1-b6e41193ea29",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1",
+                "x-api-exp-data": "PAX_CHECKOUT_DRAGONFLY_DISABLE_BUYNOW_998410:T1,READ_NOW_CTA_DATAPATH_394825:T1,BOOKS_READNOW_ASK_CONSENT_CALL_TO_ACTION_1336166:T1,BOOKS_SUBSCRIPTIONS_ASK_CONSENT_CALL_TO_ACTION_1336164:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,A2I_BASKET_BUILDING_BUY_NOW_SUPPRESSION_LAUNCH_1342522:T1,RCX_CHECKOUT_ENABLE_CONFIGURABLE_PRODUCTS_1062396:T1,DP_QL_EXHAUSTION_1050990:T1,SEARCH_SCX_1007084:T1"
+              },
+              "entity": {
+                "tangoCheckout": {
+                  "data": {
+                    "displayString": "Buy Now"
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "checkout": {
+                  "data": {
+                    "displayString": "Buy Now",
+                    "parameters": [
+                      {
+                        "value": "add-new",
+                        "name": "addressId"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wGPyHWg92cgreyapG%2BKl7Dqob9BdGWF10vbQsVTgD454L8lrQLTAJ8iO7mmZ3NPw%2Bn2s05R7ZbPWwRS20Ko9YiuSXNif9HUGhe33yFM2AFspGGA9byKO2%2F9Qd%2F3OnGPz8ZkOB6YyB%2FLC9fDtIAbWGJAlF0CIc2MkKE9BrgZN42tu",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "retailwebsite",
+                        "name": "checkoutClientId"
+                      }
+                    ]
+                  },
+                  "url": "/checkout/entry/buynow?pipelineType=Chewbacca"
+                },
+                "addToCart": {
+                  "data": {
+                    "displayString": "Add to cart",
+                    "parameters": [
+                      {
+                        "value": "B0FTRMJNPX",
+                        "name": "items[0.base][asin]"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wGPyHWg92cgreyapG%2BKl7Dqob9BdGWF10vbQsVTgD454L8lrQLTAJ8iO7mmZ3NPw%2Bn2s05R7ZbPWwRS20Ko9YiuSXNif9HUGhe33yFM2AFspGGA9byKO2%2F9Qd%2F3OnGPz8ZkOB6YyB%2FLC9fDtIAbWGJAlF0CIc2MkKE9BrgZN42tu",
+                        "name": "items[0.base][offerListingId]"
+                      },
+                      {
+                        "value": "yj5rIH5VHyCGDRWfNWN2wGPyHWg92cgreyapG%2BKl7Dqob9BdGWF10vbQsVTgD454L8lrQLTAJ8iO7mmZ3NPw%2Bn2s05R7ZbPWwRS20Ko9YiuSXNif9HUGhe33yFM2AFspGGA9byKO2%2F9Qd%2F3OnGPz8ZkOB6YyB%2FLC9fDtIAbWGJAlF0CIc2MkKE9BrgZN42tu",
+                        "name": "offerListingId"
+                      },
+                      {
+                        "value": "1",
+                        "name": "signInToHUC"
+                      },
+                      {
+                        "value": "true",
+                        "name": "canAddToCart"
+                      }
+                    ],
+                    "type": "DEFAULT"
+                  },
+                  "url": "/gp/add-to-cart/html"
+                }
+              }
+            },
+            "dealDetails": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/buying-options/-gBRgCzm38N9o2UxlbsRkK06NM5YKLG2jBjOLaYXTfg%3D/deal-details",
+                "types": ["product.deal-details/v1"]
+              },
+              "type": "product.deal-details/v1",
+              "metadata": {
+                "x-amzn-metrics-id": "INTER_RANKED:528d00bd-b563-376f-9ade-49839e548c76",
+                "x-amzn-metrics-id": "MBOS:660632ae-44ed-3417-b313-a858da884376",
+                "x-api-exp-data": "OFFERSX_OTBO_OPTIMIZATION_990426:T1,FMA_BOLT_ENABLE_CLIENT_ID_1283998:T1,FMA_SBR_MIGRATION_WRAPPER_ADDITIONAL_OPTIMISATION_1084612:C,BUYX_FMA_RPU_BOF_MIGRATION_1260020:T1,FMA_BOLT_BORS_LOGGING_1294025:T1,SEARCH_SRDEX_NSD_EXP5_632738:T1,OFFERSX_DP_MBOS_SORT_BOTYPES_CACHE_1234955:T1,OFFERSX_DP_MBOS_BODS_902358:T1,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1,BAZAAR_MBOS_ENABLE_STATIC_RANKING_ON_CORE_1341490:T1,VW_DATAPATH_ENABLE_RETAIL_ELIGIBILITY_1269941:C,RSD_MARKETPLACE_DIAL_DOWN_1228668:T1,OFFERSX_DP_UNIFIED_OFFER_FETCHER_PHASE_2_GROUP_3_1262788:T1,BAZAAR_MBOS_ENABLE_BO_ON_CORE_1195842:T1,MBOS_OPTIONAL_INPUT_ADD_B2B_CUSTOMER_1027242:T1,B2B_RD_BOF_752567:T1,BUYX_OFFERSX_BOA_ENABLE_ALL_SURFACE_LOGGING_1109001:T1"
+              },
+              "entity": {
+                "startTime": "2025-11-30T18:30:00.000Z",
+                "endTime": "2026-01-09T18:15:00.000Z",
+                "id": "5d30ece1",
+                "state": "AVAILABLE",
+                "type": "BEST_DEAL"
+              }
+            },
+            "type": "NEW"
+          }
+        ],
+        "productImages": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/product-images",
+            "types": ["product.product-images/v2"]
+          },
+          "type": "product.product-images/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_GEM_CHIMERA_PIV2_DATAPATH_GATING_1313632:T1,BUYX_DP_PINFO_PRODUCT_IMAGES_NO_IMAGE_CACHE_SKIP_1242055:T1,A2I_IES_EVAL_ZOOMED_IN_IMAGES_DATAPATH_1262279:T1,BOOKS_DP_AKIRA_TWISTER_R2D2_1238376:T1,F2_GEM_MEDIA_ESSENTIALS_DEDUPLICATION_GATING_1277603:C,EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "images": [
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61KXgizurpL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41WRtyMpHSL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "A5A4F5"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "fefefe"
+                      },
+                      "ratio": 0.3197
+                    },
+                    {
+                      "color": {
+                        "hexValue": "1e1f23"
+                      },
+                      "ratio": 0.3069
+                    },
+                    {
+                      "color": {
+                        "hexValue": "1a1b39"
+                      },
+                      "ratio": 0.133
+                    },
+                    {
+                      "color": {
+                        "hexValue": "354288"
+                      },
+                      "ratio": 0.1049
+                    },
+                    {
+                      "color": {
+                        "hexValue": "6674bb"
+                      },
+                      "ratio": 0.0793
+                    },
+                    {
+                      "color": {
+                        "hexValue": "9aa6d6"
+                      },
+                      "ratio": 0.0563
+                    }
+                  ]
+                },
+                "variant": "MAIN"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71NEwtiamBL",
+                  "width": 2160,
+                  "height": 2160
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41slJMc8jHL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "F285CC"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "fefefe"
+                      },
+                      "ratio": 0.9392
+                    },
+                    {
+                      "color": {
+                        "hexValue": "202020"
+                      },
+                      "ratio": 0.03
+                    },
+                    {
+                      "color": {
+                        "hexValue": "a6a6a6"
+                      },
+                      "ratio": 0.0263
+                    },
+                    {
+                      "color": {
+                        "hexValue": "ad1a20"
+                      },
+                      "ratio": 0.0045
+                    }
+                  ]
+                },
+                "variant": "SIDE"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "51gcGHzHRjL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "21gRhTBlnCL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "BACK"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61Eel1uM2aL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "31zY0RssDjL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT01"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71rPlphLv6L",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "5122gD216rL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "68B0F7"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "eaeff5"
+                      },
+                      "ratio": 0.4412
+                    },
+                    {
+                      "color": {
+                        "hexValue": "040718"
+                      },
+                      "ratio": 0.3294
+                    },
+                    {
+                      "color": {
+                        "hexValue": "4f5356"
+                      },
+                      "ratio": 0.1441
+                    },
+                    {
+                      "color": {
+                        "hexValue": "5f9ee3"
+                      },
+                      "ratio": 0.0559
+                    },
+                    {
+                      "color": {
+                        "hexValue": "ce2633"
+                      },
+                      "ratio": 0.0294
+                    }
+                  ]
+                },
+                "variant": "PT02"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "71fuTMEOPVL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41Y+KijFMuL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "F285CC"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "fefefe"
+                      },
+                      "ratio": 0.7851
+                    },
+                    {
+                      "color": {
+                        "hexValue": "d31b41"
+                      },
+                      "ratio": 0.0801
+                    },
+                    {
+                      "color": {
+                        "hexValue": "182641"
+                      },
+                      "ratio": 0.0463
+                    },
+                    {
+                      "color": {
+                        "hexValue": "667690"
+                      },
+                      "ratio": 0.0407
+                    },
+                    {
+                      "color": {
+                        "hexValue": "cb9e74"
+                      },
+                      "ratio": 0.0309
+                    },
+                    {
+                      "color": {
+                        "hexValue": "adbdd4"
+                      },
+                      "ratio": 0.0169
+                    }
+                  ]
+                },
+                "variant": "PT03"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61DVqrG71hL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41XEsgDjmvL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "A8ABAD"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "f3f4f6"
+                      },
+                      "ratio": 0.9127
+                    },
+                    {
+                      "color": {
+                        "hexValue": "aaaaac"
+                      },
+                      "ratio": 0.0643
+                    },
+                    {
+                      "color": {
+                        "hexValue": "080808"
+                      },
+                      "ratio": 0.023
+                    }
+                  ]
+                },
+                "variant": "PT04"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "61pU2RbEgZL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "31WBFBf7O1L",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT05"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "610WmoMELSL",
+                  "width": 1500,
+                  "height": 1500
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41Z-3U6RDKL",
+                  "width": 500,
+                  "height": 500
+                },
+                "variant": "PT06"
+              },
+              {
+                "hiRes": {
+                  "extension": "jpg",
+                  "physicalId": "51EKrccnNVL",
+                  "width": 1002,
+                  "height": 1002
+                },
+                "lowRes": {
+                  "extension": "jpg",
+                  "physicalId": "41AiSX0XdtL",
+                  "width": 500,
+                  "height": 500
+                },
+                "colorInformation": {
+                  "palette": {
+                    "leadColor": {
+                      "hexValue": "FF8787"
+                    },
+                    "secondaryColors": {
+                      "popColor": {
+                        "hexValue": "000000"
+                      },
+                      "neutralColor": {
+                        "hexValue": "000000"
+                      }
+                    }
+                  },
+                  "dominantColors": [
+                    {
+                      "color": {
+                        "hexValue": "f4f4f4"
+                      },
+                      "ratio": 0.8758
+                    },
+                    {
+                      "color": {
+                        "hexValue": "3e3e40"
+                      },
+                      "ratio": 0.0675
+                    },
+                    {
+                      "color": {
+                        "hexValue": "f75854"
+                      },
+                      "ratio": 0.0475
+                    },
+                    {
+                      "color": {
+                        "hexValue": "f00816"
+                      },
+                      "ratio": 0.0092
+                    }
+                  ]
+                },
+                "variant": "PT08"
+              }
+            ],
+            "altText": "OnePlus 15 | 16GB+512GB | Infinite Black | India's First Snapdragon® 8 Elite Gen 5 | 7300mAh Battery | Personalised AI | Game-Changing 165Hz Display | Triple 50MP Camera with 4K 120fps Dolby Vision"
+          }
+        },
+        "title": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/title",
+            "types": [
+              "product.brand-separated-title/v1",
+              "product.offer.catalog-title/v1",
+              "product.offer.title/v1"
+            ]
+          },
+          "type": "product.offer.title/v1",
+          "entity": {
+            "displayString": "OnePlus 15 | 16GB+512GB | Infinite Black | India's First Snapdragon® 8 Elite Gen 5 | 7300mAh Battery | Personalised AI | Game-Changing 165Hz Display | Triple 50MP Camera with 4K 120fps Dolby Vision"
+          }
+        },
+        "brandLogo": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/brand-logo",
+            "types": ["product.brand-logo/v1"]
+          },
+          "type": "product.brand-logo/v1",
+          "entity": {
+            "logo": {
+              "resource": {
+                "url": "/api/marketplaces/A21TJRUUN4KGV/brands/253649/logo",
+                "types": ["brand.logo/v1"]
+              },
+              "type": "brand.logo/v1",
+              "entity": {
+                "altText": "OnePlus",
+                "mediaAsset": {
+                  "extension": "png",
+                  "height": 1056,
+                  "physicalId": "21H6AqdKwUL",
+                  "width": 1056
+                }
+              }
+            }
+          }
+        },
+        "twisterVariations": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/twister-variations",
+            "types": ["product.twister-variations/v2"]
+          },
+          "type": "product.twister-variations/v2",
+          "metadata": {
+            "x-api-exp-data": "F2_MERCH_FIX_TWISTER_SORTING_964335:T1,SEARCH_EUSTORES_PUIS_CS_ADP_GATING_1316704:T1,BUYX_DP_APPEND_STOREIDS_TO_PRODUCT_REFERENCE_1158131:T1,TWISTER_FO_AAPI_METADATA_776202:T1,TWISTER_PRODUCT_SPEC_394237:C,NAS_SHAKE_SIZE_CONVERSIONS_METADATA_AGGREGATOR_GATING_1296941:T1,BUYX_DP_ENABLE_DISCRIMINATOR_FILTER_GATING_1160688:T1"
+          },
+          "entity": {
+            "dimensionValues": [
+              ["Infinite Black", "Sand Storm", "Ultra Violet"],
+              ["12 GB RAM, 256 GB Storage", "16 GB RAM, 512 GB Storage"]
+            ],
+            "variations": [
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTR5NGHJ",
+                    "types": []
+                  }
+                },
+                "values": [0, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX",
+                    "types": []
+                  }
+                },
+                "values": [0, 1]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRN7L8Q",
+                    "types": []
+                  }
+                },
+                "values": [1, 0]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTR2PJTV",
+                    "types": []
+                  }
+                },
+                "values": [1, 1]
+              },
+              {
+                "product": {
+                  "resource": {
+                    "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRYH3XM",
+                    "types": []
+                  }
+                },
+                "values": [2, 0]
+              }
+            ],
+            "dimensionKeys": [
+              {
+                "symbol": "color_name",
+                "displayString": "Colour"
+              },
+              {
+                "symbol": "size_name",
+                "displayString": "Size"
+              }
+            ],
+            "dimensionMetadata": [
+              {
+                "values": [
+                  {
+                    "colorCode": {
+                      "primary": "#202125"
+                    }
+                  },
+                  {
+                    "colorCode": {
+                      "primary": "#CCC7C2"
+                    }
+                  },
+                  {
+                    "colorCode": {
+                      "primary": "#D3CDDF"
+                    }
+                  }
+                ]
+              },
+              {
+                "values": []
+              }
+            ]
+          }
+        },
+        "links": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/links",
+            "types": ["product.links/v2", "product.links/v3"]
+          },
+          "type": "product.links/v2",
+          "metadata": {
+            "x-api-exp-data": "EUSTORES_OPTICS_CUSTOMIZE_CTA_1297312:T1"
+          },
+          "entity": {
+            "viewOnAmazon": {
+              "url": "/OnePlus-Infinite-Snapdragon%C2%AE-Personalised-Game-Changing/dp/B0FTRMJNPX"
+            }
+          }
+        },
+        "productCategory": {
+          "resource": {
+            "url": "/api/marketplaces/A21TJRUUN4KGV/products/B0FTRMJNPX/product-category",
+            "types": ["product.offer.product-category/v1"]
+          },
+          "type": "product.offer.product-category/v1",
+          "entity": {
+            "glProductGroup": {
+              "symbol": "gl_wireless"
+            },
+            "websiteDisplayGroup": {
+              "symbol": "wireless_display_on_website",
+              "displayString": "Wireless"
+            },
+            "subCategoryId": "10700907",
+            "categoryId": "10700100",
+            "productType": "CELLULAR_PHONE"
+          }
+        }
+      }
+    }
+  }
+]
