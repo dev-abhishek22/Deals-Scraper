@@ -5,6 +5,8 @@ import { LoggerModule } from './logger/logger.module';
 import { CommandModule } from 'nestjs-command';
 import { StoreAmazonDeals } from './commands/amazon-deals.commands';
 import { AmazonDealsModule } from './amazon-deals/amazon-deals.module';
+import { TelegramModule } from './telegram/telegram.module';
+import { TasksService } from './task.service';
 
 @Module({
   imports: [
@@ -13,7 +15,8 @@ import { AmazonDealsModule } from './amazon-deals/amazon-deals.module';
     LoggerModule,
     CommandModule,
     AmazonDealsModule,
+    TelegramModule
   ],
-  providers: [StoreAmazonDeals],
+  providers: [TasksService, StoreAmazonDeals],
 })
 export class AppModule {}

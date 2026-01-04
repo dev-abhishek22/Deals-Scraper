@@ -21,7 +21,7 @@ export class AmazonDealService implements OnModuleDestroy {
 
   constructor(
     @InjectModel(AmazonDeal.name)
-    private readonly dealsModel: Model<AmazonDeal>,
+    private readonly amazonDealsModel: Model<AmazonDeal>,
   ) {}
 
   buildAmazonHeaders(): {
@@ -296,7 +296,7 @@ export class AmazonDealService implements OnModuleDestroy {
           ?.link?.url,
       }));
 
-      await this.dealsModel.updateOne(
+      await this.amazonDealsModel.updateOne(
         { platform: 'amazon', productId: product.asin },
         {
           $set: {
@@ -368,14 +368,14 @@ export class AmazonDealService implements OnModuleDestroy {
       {
         name: 'ALL',
         payload: this.buildPromotionsPayload({
-          rankGroup: randomSort,
+          // rankGroup: randomSort,
         }),
       },
       {
         name: 'ELECTRONICS_BASIC',
         payload: this.buildPromotionsPayload({
           departmentIds: ['976420031'],
-          rankGroup: randomSort,
+          // rankGroup: randomSort,
         }),
       },
       {
@@ -383,7 +383,7 @@ export class AmazonDealService implements OnModuleDestroy {
         payload: this.buildPromotionsPayload({
           departmentIds: ['976420031'],
           promotionTypes: ['LIGHTNING_DEAL'],
-          rankGroup: randomSort,
+          // rankGroup: randomSort,
           excludedTags: [
             'PantryDOTD',
             'PRIME_ONLY_LD',
@@ -406,7 +406,7 @@ export class AmazonDealService implements OnModuleDestroy {
         payload: this.buildPromotionsPayload({
           departmentIds: ['976420031'],
           promotionTypes: ['COUPON'],
-          rankGroup: randomSort,
+          // rankGroup: randomSort,
           excludedTags: [
             'restrictedcontent',
             'predefined-request#deals-collection-coupons',
@@ -430,5 +430,89 @@ export class AmazonDealService implements OnModuleDestroy {
     if (this.browser) await this.browser.close();
     this.browser = null;
     this.page = null;
+  }
+
+  async fetchLootBatch(limit: number = 60) {
+    const rawDeals = await this.amazonDealsModel
+      .find({ sent: { $ne: true } })
+      // .sort({ createdAt: -1 })
+      .limit(limit)
+      .lean()
+      .exec();
+
+    if (!rawDeals || rawDeals.length === 0) return [];
+
+    return rawDeals.map((deal: any) => {
+      const imgList = deal.media?.images || [];
+      const bestImage =
+        imgList.find((i: any) => i.variant === 'MAIN' && i.hiRes?.url)?.hiRes
+          ?.url ||
+        imgList.find((i: any) => i.hiRes?.url)?.hiRes?.url ||
+        imgList[0]?.lowRes?.url ||
+        'https://via.placeholder.com/600';
+
+      const allPromos =
+        deal.promotions
+          ?.filter((p: any) => p.benefit && p.benefit.trim() !== '')
+          .map((p: any) => p.benefit.trim()) || [];
+
+      const topPromos = allPromos.slice(0, 2);
+      const remainingCount = allPromos.length > 2 ? allPromos.length - 2 : 0;
+
+      let expiryFormatted: string | null = null;
+      const rawEndTime = deal.offers?.[0]?.endTime;
+      let isExpected = false;
+
+      if (rawEndTime) {
+        const dateValue = rawEndTime.$date || rawEndTime;
+        const endDate = new Date(dateValue);
+
+        if (!isNaN(endDate.getTime())) {
+          expiryFormatted = endDate.toLocaleString('en-IN', {
+            day: '2-digit',
+            month: 'short',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true,
+          });
+          isExpected = true;
+        }
+      }
+
+      return {
+        _id: deal._id.toString(),
+        productId: deal.productId,
+        title: deal.title,
+        brand: deal.brand,
+        image: bestImage,
+        url: `https://www.amazon.in${deal.canonicalUrl}`,
+        pricing: {
+          sell: deal.pricing?.sellingPrice || 0,
+          mrp: deal.pricing?.mrp || 0,
+          off: deal.pricing?.discountPercent || 0,
+          save: deal.pricing?.discountAmount || 0,
+          currency: deal.pricing?.currency || 'INR',
+          type: deal.pricing?.type?.replace(/_/g, ' ') || 'MEGA DEAL',
+        },
+        topPromos,
+        remainingPromos: remainingCount,
+        category: deal.productType || 'GENERAL',
+        expiry: expiryFormatted,
+        isExpected: isExpected,
+      };
+    });
+  }
+
+  async markBatchAsSent(dealIds: string[], affiliateId: number) {
+    return await this.amazonDealsModel.updateMany(
+      { _id: { $in: dealIds } },
+      {
+        $set: {
+          sent: true,
+          sent_through: affiliateId,
+          sentAt: new Date(),
+        },
+      },
+    );
   }
 }

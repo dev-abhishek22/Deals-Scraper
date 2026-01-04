@@ -5,6 +5,7 @@ import { ResponseInterceptor } from './interceptor/response.interceptor';
 import { GlobalExceptionFilter } from './errors/exception.filter';
 import { ClassSerializerInterceptor } from '@nestjs/common';
 import { NestExpressApplication } from '@nestjs/platform-express';
+import { join } from 'path';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -20,6 +21,9 @@ async function bootstrap() {
   );
 
   app.useGlobalFilters(new GlobalExceptionFilter(logger));
+
+  app.setBaseViewsDir(join(process.cwd(), 'views'));
+  app.setViewEngine('hbs');
 
   await app.listen(port);
 
